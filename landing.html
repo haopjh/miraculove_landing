@@ -1,0 +1,276 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Miraculove, Your Love Story Illustrator</title>
+
+        <link href="bootstrap.css?v=3.3.6" rel="stylesheet" type="text/css">
+
+        <!-- jQuery -->
+        <!-- <script src="https://code.jquery.com/jquery-2.2.2.min.js"   integrity="sha256-36cp2Co+/62rEAAYHLmRCPIych47CvdM+uTBJwSzWjI="   crossorigin="anonymous"></script> -->
+
+        <!-- Bootstrap stuff -->
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous"> -->
+        <!-- Latest compiled and minified JavaScript -->
+        <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script> -->
+        
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <style>
+            @font-face {
+                font-family: "Hunterswood";
+                src: url('./resources/Hunterswood-Regular.otf') format("opentype");
+            }
+            @font-face {
+                font-family: "Quicksand";
+                font-weight: 500;
+                src: url('./resources/Quicksand/Quicksand_Bold.otf') format("opentype");
+            }
+            @font-face {
+                font-family: "Quicksand";
+                font-weight: 400;
+                src: url('./resources/Quicksand/Quicksand_Book.otf') format("opentype");
+            }
+            @font-face {
+                font-family: "Quicksand";
+                font-weight: 300;
+                src: url('./resources/Quicksand/Quicksand_Light.otf') format("opentype");
+            }
+            body {
+                font-family: "Baskerville", "Helvetica Neue",Helvetica,Arial,sans-serif;
+                margin: 0;
+                padding: 0;
+            }
+            p {
+            	font-family: "Quicksand";
+            }
+            .hunterswood {
+            	font-family:'Hunterswood';
+            }
+            .quicksand {
+            	font-family:'Quicksand';
+            }
+            .navbar.navbar-default {
+                margin: 0;
+            }
+            .navbar a {
+            	line-height: 1.3 !important;
+            	font-family: "Quicksand";
+            	font-weight: 500;
+        	    font-size: 1.2rem;
+        	    max-width: 13rem;
+        	    text-align: center;
+    	        margin-top: 6px;
+            }
+            .mid-container {
+                padding-left: 12rem;
+                padding-right: 12rem;
+            }
+            .container {
+                padding-top: 3rem;
+                padding-bottom: 3rem;
+            }
+            button.btn {
+                color: white;
+                margin-top: 2rem;
+                padding: 1rem 3rem;
+                text-transform: uppercase;
+                background-color: rgb(195, 50, 35);
+            }
+            @media(max-width: 768px) {
+            	button.btn {
+            		margin-top: 0;
+            	}
+            }
+            @media(max-width: 500px) {
+                .break-container {
+                    max-width: 320px;
+                }
+                .break-container + div {
+                    margin-top: -4.8rem !important;
+                }
+            }
+            @media(max-width: 767px) {
+                .break-container {
+                    max-width: 500px;
+                }
+                .break-container + div {
+                    margin-top: -5.7rem !important;
+                }
+                .illustration-container {
+                    text-align: center;
+                }
+            }
+            @media(min-width: 768px) {
+                .break-container + div {
+                    margin-top: -7rem !important;
+                }
+            }
+            @media(min-width: 992px) {
+                .break-container + div {
+                    margin-top: -8.5rem !important;
+                }
+            }
+
+                
+        </style>
+    </head>
+
+    <body>
+        <nav class="navbar navbar-default">
+            <div class="container-fluid" style="background-color:white;padding-top:1rem;padding-bottom:1rem;height:8rem;">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#" style="margin-top:-17px;margin-left:0.5rem;">
+                    	<img src="./img/logos/miraculove-logo.png" style="width:12rem;">
+                    </a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="#">WHO WE ARE</a></li>
+                        <li><a href="#">OUR SERVICES</a></li>
+                        <li><a href="#" style="margin-top:0;">ILLUSTRATE MY LOVE STORY</a></li>
+                        <li><a href="#">CONTACT US</a></li>
+                    </ul>
+                </div><!-- /.navbar-collapse -->
+            </div><!-- /.container-fluid -->
+        </nav>
+        <div style="text-align:center;background-image:url('./img/background.jpg');background-size:contain;">
+            <div class="container">
+                <img src="./img/walking-matana.png" style="width:100%;"/>
+            </div>
+        </div>
+        <div class="container clearfix">
+            <div class="col-sm-12">
+                <h1 class="col-sm-6 col-md-7" style="text-transform: uppercase;">Every couple has their unique love story to tell.</h1>
+                <div class="col-sm-6 col-md-5" style="margin-bottom: 2rem;text-align:center;">
+                    <img style="width: 100%;max-width:300px;" src="./img/couple-matana.png"/>
+                </div>
+
+                <p class="col-sm-12">
+                    From college sweethearts who bonded over intellectual discussions to Tinder users who swiped right on each other's profiles and the rest become history, every relationship is grounded on a sereniptous, one-of-a kind love story.
+                </p>
+                <p class="col-sm-12">
+                    What's your story?
+                </p>
+            </div>
+        </div>
+        <div style="text-align:center;background-image:url('./img/background.jpg');background-size:contain;padding-top:2rem;padding-bottom:2rem;">
+            <div class="container clearfix" >
+                <img style="width:100%;" src="./img/border-top.png"/>
+                <div class="col-sm-12" style="text-align:center;margin-top:-2rem;margin-bottom:2rem;">
+                    <img style="max-width:300px;width:100%;" src="./img/at-miraculove.png"/>
+                </div>
+                <div class="col-sm-6">
+                    <p class="col-sm-12">
+                        We celebrate your miraculous love stories by translating them into th emost befitting, timeless and meaningfdiv aesthetics. We achieve this through our undivided focus on storytelling.
+                    </p>
+                    <img style="width:100%;" src="./img/hugging-matana2.png"/>
+                </div>
+                <div class="col-sm-6">
+                    <p class="col-sm-12">
+                        We do what we do as we want something of our narrative illustrations to stay with you, as it will with us. To become your treasured keepsakes that will always hold personal significance.
+                    </p>
+                    <div class="col-sm-12">
+                        <div>
+                            <div style="width:40px;float:left;font-size: 4rem;text-align:left;line-height:1;">"</div>
+                            <div style="width:calc(100% - 85px);display:inline-block;" class="lead">
+                                Inspired by The Little Prince, our winsome illustrations take people into a world of whimsy and wonder.
+                            </div>
+                            <div style="width:40px; display: inline-block;font-size: 4rem;text-align:right;position:relative;top:2rem;">"</div>
+                        </div>
+                        <button class="btn">Talk to us:)</button>
+                    </div>
+                </div>
+                <img style="width:100%;margin-top:-1rem;" src="./img/border-bottom.png"/>
+            </div>
+        </div>
+
+        <div class="container clearfix illustration-container">
+            <h3 style="text-transform:uppercase;text-align:center;">Our illustrations are heartfelt expositions of love. They can take on any form.</h3>
+            <p style="text-transform:uppercase;text-align:center;margin-top:-1rem;margin-bottom:2rem;">(Limited to only your imagination)</p>
+            <div class="col-sm-12" style="text-align:center;">
+                <img src="./img/the-usuals.png" style="max-width:300px;width:100%;"/>
+            </div>
+
+            <div class="col-sm-12" style="text-transform:uppercase;">
+            	<div class="col-sm-1"></div>
+                <div class="col-sm-4">
+                    <h3 class="hunterswood">Pre-wedding</h3>
+                    <p class="quicksand" style="font-size:12px;">
+                        &bull;&nbsp;&nbsp;Save the date<br>
+                        &bull;&nbsp;&nbsp;Bridesmaid invitation<br>
+                        &bull;&nbsp;&nbsp;Groomsman invitation<br>
+                        &bull;&nbsp;&nbsp;Wedding invitation<br>
+                    </p>
+                </div>
+                <div class="col-sm-4">
+                    <h3 class="hunterswood">WEDDING DAY</h3>
+                    <p class="quicksand" style="font-size:12px;">
+                        &bull;&nbsp;&nbsp;Welcome signage<br>
+                        &bull;&nbsp;&nbsp;Order of service<br>
+                        &bull;&nbsp;&nbsp;Booklet<br>
+                        &bull;&nbsp;&nbsp;Menu card<br>
+                        &bull;&nbsp;&nbsp;Table number card<br>
+                        &bull;&nbsp;&nbsp;Guest place card<br>
+                        &bull;&nbsp;&nbsp;Guest book<br>
+                        &bull;&nbsp;&nbsp;Mad lib<br>
+                        &bull;&nbsp;&nbsp;Blessing card<br>
+                        &bull;&nbsp;&nbsp;Wedding gift packaging<br>
+                    </p>
+                </div>
+                <div class="col-sm-3">
+                    <h3 class="hunterswood">POST-WEDDING</h3>
+                    <p class="quicksand" style="font-size:12px;">
+                        &bull;&nbsp;&nbsp;Thank you card<br>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="container break-container">
+            <img style="width:100%;" src="./img/break.png">
+        </div>
+        <div style="text-align:center;background-image:url('./img/background.jpg');background-size:contain;padding-top:3rem;margin-top:-5rem;">
+            <div class="container clearfix">
+                <div class="col-sm-12" style="margin-bottom:2rem;">
+                    <img src="./img/provide.png" style="width:100%;max-width:300px;">
+                </div>
+                <div class="col-sm-6">
+                	<div style="height: 35rem;">
+	                    <h1>BESPOKE</h1>
+	                    <p>
+	                        At Miraculove, we are all about you. We believe in going the extra mile. This begins by our Love Story Illustrator connecting with you to understand your exacting ideas of how you envision your fable of love illustrated.
+	                    </p>
+	                    <div class="col-sm-12">
+	                    	<img style="max-width:26rem;width:100%;" src="./img/tape-matana.png">
+	                    </div>
+	               	</div>
+                    <button class="btn">Book an appointment</button>
+                </div>
+                <div class=""
+                <div class="col-sm-6">
+                	<div style="height: 35rem;">
+	                    <h1>IN-HOUSE</h1>
+	                    <p>
+	                        Existing illustrations grounded on classic love stories like Love At First Sight are available for your hassle-free selection. 
+	                        <br>
+	                        <br>
+	                        Take a look to see if these ready illustrations resonate with you.
+	                    </p>
+	                    <div class="col-sm-12">
+	                    	<img style="max-width:34rem;width:100%;margin-top:3rem;" src="./img/book.png">
+	                    </div>
+	                </div>
+                    <button class="btn">Send me in-house designs</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
